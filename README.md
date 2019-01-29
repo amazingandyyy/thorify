@@ -29,7 +29,7 @@ A web3 adaptor for VeChain [Thor](https://github.com/vechain/thor) RESTful API.
 
 ``` bash
 npm install --save thorify
-npm install --save web3 # Web3 is needed as dependency.
+npm install --save web3@1.0.0-beta.34   # Web3 is needed as dependency.
 ```
 
 ## Usage
@@ -59,6 +59,8 @@ web3.eth.getBlock("latest").then(res => console.log(res));
 ```
 
 ## Web3 method supported
+
+compatable web3 version: **web3@1.0.0-beta.34**
 
 ```
 web3 instance
